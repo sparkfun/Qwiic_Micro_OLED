@@ -19297,7 +19297,7 @@ Monochrome</description>
 <sheets>
 <sheet>
 <plain>
-<text x="236.982" y="6.35" size="2.54" layer="94" font="vector">v01</text>
+<text x="236.982" y="6.35" size="2.54" layer="94" font="vector">v10</text>
 <text x="178.816" y="150.876" size="1.778" layer="97">1.65 &lt;= VDD &lt;= 3.3</text>
 <text x="195.58" y="129.54" size="1.778" layer="97">VDD current &lt; 300 uA</text>
 <text x="195.58" y="127" size="1.778" layer="97">VCC current (Internally generated) = 5.8-20.9mA</text>

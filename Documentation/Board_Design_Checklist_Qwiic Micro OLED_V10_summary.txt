@@ -1,3 +1,3 @@
 1) Does this board adhere to the standard manufacturing process? (Kitting time, glue curing, humidor time, etc.) [NO]
-comment: hot bar for screen
+comment: Hot Bar
 
