@@ -25,7 +25,7 @@ Documentation
 
 Product Versions
 ----------------
-* [LCD-14532](https://www.sparkfun.com/products/14532)- The SparkFun Qwiic Micro OLED Breakout is a Qwiic-enabled version of our popular Micro OLED display! The small monochrome, blue-on-black OLED screen presents incredibly clear images for your viewing pleasure.
+* [LCD-14532](https://www.sparkfun.com/products/14532) - The SparkFun Qwiic Micro OLED Breakout is a Qwiic-enabled version of our popular Micro OLED display! The small monochrome, blue-on-black OLED screen presents incredibly clear images for your viewing pleasure.
 
 License Information
 -------------------
