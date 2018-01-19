@@ -1,38 +1,28 @@
-SparkFun <PRODUCT NAME>
+SparkFun SparkFun Micro OLED Breakout (Qwiic)
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun Micro OLED Breakout (Qwiic)](https://cdn.sparkfun.com//assets/parts/1/2/6/2/1/14532-03.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Micro OLED Breakout (Qwiic) (LCD-14532)*](https://www.sparkfun.com/products/14532)
 
-<Basic description of the part.>
+The SparkFun Qwiic Micro OLED Breakout is a Qwiic-enabled version of our popular Micro OLED display! The small monochrome, blue-on-black OLED screen presents incredibly clear images for your viewing pleasure. 
 
 Repository Contents
 -------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
+* **/Libraries** - Libraries for use with the SparkFun Micro OLED Breakout (Qwiic)
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+* **/Software** - Related software for the SparkFun Micro OLED Breakout (Qwiic).
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Library](https://github.com/sparkfun/Micro_OLED_Breakout)** - Latest Arduino library for the Micro OLED Breakout.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-micro-oled-hookup-guide)** - Basic hookup guide for the SparkFun Micro OLED Breakout (Qwiic).
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [LCD-14532](https://www.sparkfun.com/products/14532) - The SparkFun Qwiic Micro OLED Breakout is a Qwiic-enabled version of our popular Micro OLED display! The small monochrome, blue-on-black OLED screen presents incredibly clear images for your viewing pleasure.
 
 License Information
 -------------------
