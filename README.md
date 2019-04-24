@@ -17,7 +17,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/Micro_OLED_Breakout)** - Latest Arduino library for the Micro OLED Breakout.
+* **[Library](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library)** - Latest Arduino library for the Micro OLED Breakout.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-micro-oled-hookup-guide)** - Basic hookup guide for the SparkFun Micro OLED Breakout (Qwiic).
 
 Product Versions
