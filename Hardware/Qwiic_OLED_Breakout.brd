@@ -136,12 +136,12 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="156" name="gesam-Maß" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="157" name="FaceMchng" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="158" name="FaceMMeas" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="159" name="Geh-Bear2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="160" name="Topologie" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="161" name="tomplace2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="gesam-Maß" color="7" fill="1" visible="no" active="yes"/>
+<layer number="157" name="FaceMchng" color="7" fill="1" visible="no" active="yes"/>
+<layer number="158" name="FaceMMeas" color="7" fill="1" visible="no" active="yes"/>
+<layer number="159" name="Geh-Bear2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="160" name="Topologie" color="7" fill="1" visible="no" active="yes"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
@@ -189,14 +189,14 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
-<layer number="252" name="BR-BS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
-<text x="11.303" y="0.381" size="1.016" layer="16" font="vector" ratio="20" rot="MR0">v11</text>
+<text x="3.175" y="0.762" size="1.016" layer="16" font="vector" ratio="20" rot="MR0">v11</text>
 <wire x1="20.32" y1="0" x2="20.32" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.2032" layer="20"/>
@@ -222,19 +222,20 @@
 <wire x1="1.905" y1="20.828" x2="18.415" y2="20.828" width="0.2032" layer="20"/>
 <wire x1="18.415" y1="20.828" x2="18.415" y2="24.638" width="0.2032" layer="20"/>
 <wire x1="0" y1="20.32" x2="20.32" y2="20.32" width="0.2032" layer="20"/>
-<dimension x1="-1.27" y1="27.178" x2="21.59" y2="27.178" x3="10.16" y3="36.83" textsize="1.778" layer="47" unit="inch"/>
 <text x="6.731" y="26.035" size="0.889" layer="46" font="vector" ratio="12">ROUTE OUT</text>
 <text x="6.604" y="26.035" size="0.889" layer="46" font="vector" ratio="12">ROUTE OUT</text>
 <dimension x1="0" y1="20.32" x2="0" y2="0" x3="-6.35" y3="10.16" textsize="1.778" textratio="12" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="20.32" y2="0" x3="10.16" y3="-10.16" textsize="1.778" textratio="12" layer="47" unit="inch"/>
 <dimension x1="10.16" y1="5.08" x2="0" y2="5.08" x3="5.08" y3="-5.08" textsize="1.778" textratio="12" layer="47" unit="inch"/>
-<dimension x1="-1.27" y1="27.178" x2="0" y2="20.32" x3="-0.635" y3="33.02" textsize="1.778" textratio="12" layer="47" dtype="horizontal" unit="inch"/>
 <text x="-26.67" y="-6.35" size="1.778" layer="47" font="vector" ratio="12">Units in Inches</text>
 <text x="31.75" y="34.29" size="1.778" layer="51" font="vector" ratio="12">Two Layer Board</text>
-<text x="31.75" y="31.75" size="1.778" layer="51" font="vector" ratio="12">Red Silk</text>
+<text x="31.75" y="31.75" size="1.778" layer="51" font="vector" ratio="12">Red Soldermask</text>
 <text x="31.75" y="29.21" size="1.778" layer="51" font="vector" ratio="12">White Silkscreen</text>
 <text x="31.75" y="26.67" size="1.778" layer="51" font="vector" ratio="12">1.6mm Thickness</text>
 <text x="31.75" y="24.13" size="1.778" layer="51" font="vector" ratio="12">Lead-Free HASL</text>
+<dimension x1="0" y1="27.178" x2="20.32" y2="27.178" x3="10.16" y3="34.29" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="20.32" y1="0" x2="20.32" y2="11.43" x3="26.67" y3="5.715" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="20.32" y1="0" x2="20.32" y2="19.05" x3="31.75" y3="9.525" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1001,6 +1002,108 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="SFE_LOGO_FLAME_.1">
+<description>&lt;h3&gt;SparkFun Flame Logo - 0.1" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun Flame Logo&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
+<vertex x="0.557" y="0.839"/>
+<vertex x="0.557" y="0.749"/>
+<vertex x="0.547" y="0.719"/>
+<vertex x="0.537" y="0.699"/>
+<vertex x="0.507" y="0.669"/>
+<vertex x="0.477" y="0.659"/>
+<vertex x="0.447" y="0.659"/>
+<vertex x="0.367" y="0.679"/>
+<vertex x="0.327" y="0.699"/>
+<vertex x="0.297" y="0.719"/>
+<vertex x="0.257" y="0.749"/>
+<vertex x="0.197" y="0.809"/>
+<vertex x="0.157" y="0.869"/>
+<vertex x="0.147" y="0.909"/>
+<vertex x="0.147" y="0.969"/>
+<vertex x="0.157" y="0.999"/>
+<vertex x="0.167" y="1.019"/>
+<vertex x="0.187" y="1.049"/>
+<vertex x="0.227" y="1.079"/>
+<vertex x="0.267" y="1.099"/>
+<vertex x="0.317" y="1.109"/>
+<vertex x="0.357" y="1.119"/>
+<vertex x="0.417" y="1.119"/>
+<vertex x="0.437" y="1.109"/>
+<vertex x="0.447" y="1.109"/>
+<vertex x="0.437" y="1.119"/>
+<vertex x="0.397" y="1.149"/>
+<vertex x="0.257" y="1.219"/>
+<vertex x="0.167" y="1.239"/>
+<vertex x="0.067" y="1.239"/>
+<vertex x="-0.043" y="1.219"/>
+<vertex x="-0.153" y="1.159"/>
+<vertex x="-0.243" y="1.089"/>
+<vertex x="-0.293" y="1.009"/>
+<vertex x="-0.323" y="0.919"/>
+<vertex x="-0.323" y="0.839"/>
+<vertex x="-0.303" y="0.749"/>
+<vertex x="-0.253" y="0.659"/>
+<vertex x="-0.183" y="0.579"/>
+<vertex x="-0.103" y="0.489"/>
+<vertex x="-0.033" y="0.419"/>
+<vertex x="-0.003" y="0.339"/>
+<vertex x="-0.003" y="0.269"/>
+<vertex x="-0.023" y="0.209"/>
+<vertex x="-0.063" y="0.159"/>
+<vertex x="-0.123" y="0.119"/>
+<vertex x="-0.203" y="0.099"/>
+<vertex x="-0.283" y="0.099"/>
+<vertex x="-0.333" y="0.109"/>
+<vertex x="-0.383" y="0.129"/>
+<vertex x="-0.443" y="0.189"/>
+<vertex x="-0.463" y="0.219"/>
+<vertex x="-0.473" y="0.249"/>
+<vertex x="-0.473" y="0.289"/>
+<vertex x="-0.463" y="0.319"/>
+<vertex x="-0.403" y="0.379"/>
+<vertex x="-0.373" y="0.389"/>
+<vertex x="-0.333" y="0.409"/>
+<vertex x="-0.323" y="0.419"/>
+<vertex x="-0.363" y="0.439"/>
+<vertex x="-0.483" y="0.439"/>
+<vertex x="-0.543" y="0.429"/>
+<vertex x="-0.593" y="0.419"/>
+<vertex x="-0.643" y="0.399"/>
+<vertex x="-0.683" y="0.369"/>
+<vertex x="-0.733" y="0.329"/>
+<vertex x="-0.793" y="0.229"/>
+<vertex x="-0.813" y="0.159"/>
+<vertex x="-0.823" y="0.079"/>
+<vertex x="-0.823" y="-1.291"/>
+<vertex x="-0.773" y="-1.241"/>
+<vertex x="-0.743" y="-1.191"/>
+<vertex x="-0.693" y="-1.141"/>
+<vertex x="-0.643" y="-1.081"/>
+<vertex x="-0.523" y="-0.961"/>
+<vertex x="-0.403" y="-0.821"/>
+<vertex x="-0.303" y="-0.721"/>
+<vertex x="-0.203" y="-0.661"/>
+<vertex x="-0.143" y="-0.651"/>
+<vertex x="0.047" y="-0.651"/>
+<vertex x="0.167" y="-0.631"/>
+<vertex x="0.277" y="-0.601"/>
+<vertex x="0.377" y="-0.561"/>
+<vertex x="0.477" y="-0.501"/>
+<vertex x="0.557" y="-0.431"/>
+<vertex x="0.637" y="-0.351"/>
+<vertex x="0.707" y="-0.261"/>
+<vertex x="0.807" y="-0.081"/>
+<vertex x="0.857" y="0.109"/>
+<vertex x="0.867" y="0.279"/>
+<vertex x="0.837" y="0.439"/>
+<vertex x="0.787" y="0.589"/>
+<vertex x="0.717" y="0.699"/>
+<vertex x="0.637" y="0.789"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -3526,27 +3629,27 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-00824" x="9.525" y="8.255" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.763" y="8.255" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R13" library="SparkFun-Resistors" package="0603" value="4.7k" x="5.715" y="15.875" smashed="yes" rot="R270">
+<element name="R13" library="SparkFun-Resistors" package="0603" value="2.2k" x="5.715" y="15.875" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.477" y="15.875" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="5.715" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="4.953" y="15.875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="5.715" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="2.2k" x="4.953" y="15.875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R14" library="SparkFun-Resistors" package="0603" value="4.7k" x="14.605" y="15.875" smashed="yes" rot="R270">
+<element name="R14" library="SparkFun-Resistors" package="0603" value="2.2k" x="14.605" y="15.875" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.367" y="15.875" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="14.605" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="13.843" y="15.875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="14.605" y="15.875" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="2.2k" x="13.843" y="15.875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="I2C" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39294/1" value="JUMPER-SMT_3_2-NC_PASTE_SILK" x="6.985" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.985" y="11.557" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="6.985" y="13.843" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="21.59" y="27.178" smashed="yes">
-<attribute name="NAME" x="21.59" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="21.59" y="25.146" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="20.32" y="27.178" smashed="yes">
+<attribute name="NAME" x="20.32" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="20.32" y="25.146" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="-1.27" y="27.178" smashed="yes">
-<attribute name="NAME" x="-1.27" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="-1.27" y="25.146" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="0" y="27.178" smashed="yes">
+<attribute name="NAME" x="0" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="0" y="25.146" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="ADR" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="12.7" y="13.843" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -3573,6 +3676,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="10.16" y="22.86" smashed="yes"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="6.604" y="18.415" smashed="yes" rot="MR0"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="30.48" y="46.99" smashed="yes"/>
+<element name="U$15" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="3.556" y="2.54" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3624,11 +3728,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="1.143" y="19.558" extent="1-16" drill="0.3048"/>
 <via x="1.27" y="13.97" extent="1-16" drill="0.3048"/>
 <via x="1.27" y="11.43" extent="1-16" drill="0.3048"/>
-<via x="2.54" y="1.27" extent="1-16" drill="0.3048"/>
 <via x="16.51" y="1.27" extent="1-16" drill="0.3048"/>
 <via x="5.08" y="1.27" extent="1-16" drill="0.3048"/>
 <via x="14.605" y="19.304" extent="1-16" drill="0.3048"/>
 <via x="5.6134" y="19.0754" extent="1-16" drill="0.3048"/>
+<wire x1="12.2936" y1="12.7" x2="12.2936" y2="13.4366" width="0.254" layer="1"/>
+<wire x1="12.2936" y1="13.4366" x2="12.573" y2="13.716" width="0.254" layer="1"/>
+<wire x1="5.715" y1="7.405" x2="4.865" y2="8.255" width="0.254" layer="1"/>
+<wire x1="4.865" y1="8.255" x2="4.826" y2="8.255" width="0.254" layer="1"/>
+<wire x1="18.161" y1="5.842" x2="18.161" y2="8.128" width="0.254" layer="1"/>
+<wire x1="16.256" y1="5.842" x2="16.256" y2="8.128" width="0.254" layer="1"/>
 </signal>
 <signal name="VDD">
 <contactref element="C4" pad="1"/>
