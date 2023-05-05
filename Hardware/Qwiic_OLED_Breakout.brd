@@ -3805,7 +3805,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="4.064" y1="5.334" x2="3.81" y2="5.08" width="0.254" layer="1"/>
 <wire x1="3.81" y1="5.08" x2="3.175" y2="5.08" width="0.254" layer="1"/>
 </signal>
-<signal name="D/C">
+<signal name="D/!C!">
 <contactref element="OLED1" pad="13"/>
 <contactref element="ADR" pad="2"/>
 <contactref element="R3" pad="1"/>

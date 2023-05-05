@@ -22454,7 +22454,7 @@ from I2C bus. </text>
 <label x="30.48" y="147.32" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="D/C" class="0">
+<net name="D/!C!" class="0">
 <segment>
 <pinref part="OLED1" gate="G1" pin="D/!C!"/>
 <wire x1="86.36" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
