@@ -206,17 +206,27 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
+&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 <package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
-<package name="MICRO-FIDUCIAL">
-<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
-</package>
 <package name="OSHW-LOGO-S">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <polygon width="0.15" layer="21">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
 <vertex x="0.5465" y="-0.8746"/>
@@ -251,80 +261,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
-<vertex x="0.6578" y="-1.588" curve="9.499253"/>
-<vertex x="0.9108" y="-1.4576"/>
-<vertex x="1.5392" y="-1.97"/>
-<vertex x="1.97" y="-1.5392"/>
-<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
-<vertex x="1.6747" y="-0.3866"/>
-<vertex x="2.4814" y="-0.3047"/>
-<vertex x="2.4814" y="0.3047"/>
-<vertex x="1.6747" y="0.3866" curve="19.001165"/>
-<vertex x="1.4576" y="0.9108"/>
-<vertex x="1.97" y="1.5392"/>
-<vertex x="1.5392" y="1.97"/>
-<vertex x="0.9108" y="1.4576" curve="19.001165"/>
-<vertex x="0.3866" y="1.6747"/>
-<vertex x="0.3047" y="2.4814"/>
-<vertex x="-0.3047" y="2.4814"/>
-<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
-<vertex x="-0.9108" y="1.4576"/>
-<vertex x="-1.5392" y="1.97"/>
-<vertex x="-1.97" y="1.5392"/>
-<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
-<vertex x="-1.6747" y="0.3866"/>
-<vertex x="-2.4814" y="0.3047"/>
-<vertex x="-2.4814" y="-0.3047"/>
-<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
-<vertex x="-1.4576" y="-0.9108"/>
-<vertex x="-1.97" y="-1.5392"/>
-<vertex x="-1.5392" y="-1.97"/>
-<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
-<vertex x="-0.6578" y="-1.588"/>
-<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
-<vertex x="-0.7813" y="0" curve="-247.497552"/>
-<vertex x="0.299" y="-0.7218"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-L">
-<polygon width="0.15" layer="21">
-<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
-<vertex x="1.2751" y="-2.0407"/>
-<vertex x="2.1548" y="-2.758"/>
-<vertex x="2.758" y="-2.1548"/>
-<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
-<vertex x="2.3446" y="-0.5413"/>
-<vertex x="3.4739" y="-0.4265"/>
-<vertex x="3.4739" y="0.4265"/>
-<vertex x="2.3446" y="0.5413" curve="18.998791"/>
-<vertex x="2.0407" y="1.2751"/>
-<vertex x="2.758" y="2.1548"/>
-<vertex x="2.1548" y="2.758"/>
-<vertex x="1.2751" y="2.0407" curve="18.998791"/>
-<vertex x="0.5413" y="2.3446"/>
-<vertex x="0.4265" y="3.4739"/>
-<vertex x="-0.4265" y="3.4739"/>
-<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
-<vertex x="-1.2751" y="2.0407"/>
-<vertex x="-2.1548" y="2.758"/>
-<vertex x="-2.758" y="2.1548"/>
-<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
-<vertex x="-2.3446" y="0.5413"/>
-<vertex x="-3.4739" y="0.4265"/>
-<vertex x="-3.4739" y="-0.4265"/>
-<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
-<vertex x="-2.0407" y="-1.2751"/>
-<vertex x="-2.758" y="-2.1548"/>
-<vertex x="-2.1548" y="-2.758"/>
-<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
-<vertex x="-0.9209" y="-2.2231"/>
-<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
-<vertex x="-1.0938" y="0" curve="-247.497204"/>
-<vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
 <package name="QWIIC_6MM">
@@ -15085,15 +15021,448 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
 </package>
+<package name="DUMMY">
+<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
+&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
+
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
+&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-0.2MM">
+<description>&lt;h3&gt;Fiducial - Circle, 0.2mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.06" width="0.1524" layer="29"/>
+</package>
+<package name="OSHW-LOGO-S_COPPER">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Top Copper&lt;/h3&gt;
+&lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="1">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M_COPPER">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Top Copper&lt;/h3&gt;
+&lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="1">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L_COPPER">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Top Copper&lt;/h3&gt;
+&lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="1">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.15" layer="21">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-MINI">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Mini - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.076" layer="21">
+<vertex x="1.2366" y="-0.17263125"/>
+<vertex x="1.2366" y="0.14736875"/>
+<vertex x="0.8766" y="0.20736875"/>
+<vertex x="0.8766" y="0.24736875"/>
+<vertex x="0.8666" y="0.25736875"/>
+<vertex x="0.8666" y="0.27736875"/>
+<vertex x="0.8566" y="0.28736875"/>
+<vertex x="0.8466" y="0.30736875"/>
+<vertex x="0.8466" y="0.32736875"/>
+<vertex x="0.8366" y="0.33736875"/>
+<vertex x="0.8366" y="0.35736875"/>
+<vertex x="0.8266" y="0.36736875"/>
+<vertex x="0.8166" y="0.38736875"/>
+<vertex x="0.8066" y="0.39736875"/>
+<vertex x="0.8066" y="0.41736875"/>
+<vertex x="0.7966" y="0.42736875"/>
+<vertex x="0.7866" y="0.44736875"/>
+<vertex x="0.7766" y="0.45736875"/>
+<vertex x="0.9866" y="0.74736875"/>
+<vertex x="0.7566" y="0.96736875"/>
+<vertex x="0.4666" y="0.76736875"/>
+<vertex x="0.4566" y="0.77736875"/>
+<vertex x="0.4366" y="0.78736875"/>
+<vertex x="0.4266" y="0.78736875"/>
+<vertex x="0.4066" y="0.79736875"/>
+<vertex x="0.3966" y="0.80736875"/>
+<vertex x="0.3766" y="0.81736875"/>
+<vertex x="0.3666" y="0.81736875"/>
+<vertex x="0.3466" y="0.82736875"/>
+<vertex x="0.3366" y="0.83736875"/>
+<vertex x="0.3166" y="0.83736875"/>
+<vertex x="0.2966" y="0.84736875"/>
+<vertex x="0.2866" y="0.84736875"/>
+<vertex x="0.2666" y="0.85736875"/>
+<vertex x="0.2566" y="0.85736875"/>
+<vertex x="0.2366" y="0.86736875"/>
+<vertex x="0.2166" y="0.86736875"/>
+<vertex x="0.1566" y="1.21736875"/>
+<vertex x="-0.1634" y="1.21736875"/>
+<vertex x="-0.2234" y="0.86736875"/>
+<vertex x="-0.2334" y="0.86736875"/>
+<vertex x="-0.2534" y="0.85736875"/>
+<vertex x="-0.2734" y="0.85736875"/>
+<vertex x="-0.2834" y="0.84736875"/>
+<vertex x="-0.3034" y="0.84736875"/>
+<vertex x="-0.3234" y="0.83736875"/>
+<vertex x="-0.3334" y="0.83736875"/>
+<vertex x="-0.3534" y="0.82736875"/>
+<vertex x="-0.3634" y="0.81736875"/>
+<vertex x="-0.3834" y="0.81736875"/>
+<vertex x="-0.3934" y="0.80736875"/>
+<vertex x="-0.4134" y="0.79736875"/>
+<vertex x="-0.4234" y="0.78736875"/>
+<vertex x="-0.4434" y="0.78736875"/>
+<vertex x="-0.4534" y="0.77736875"/>
+<vertex x="-0.4734" y="0.76736875"/>
+<vertex x="-0.7634" y="0.96736875"/>
+<vertex x="-0.9834" y="0.74736875"/>
+<vertex x="-0.7834" y="0.45736875"/>
+<vertex x="-0.7934" y="0.44736875"/>
+<vertex x="-0.7934" y="0.42736875"/>
+<vertex x="-0.8034" y="0.41736875"/>
+<vertex x="-0.8134" y="0.39736875"/>
+<vertex x="-0.8234" y="0.38736875"/>
+<vertex x="-0.8234" y="0.36736875"/>
+<vertex x="-0.8334" y="0.35736875"/>
+<vertex x="-0.8434" y="0.33736875"/>
+<vertex x="-0.8434" y="0.32736875"/>
+<vertex x="-0.8634" y="0.28736875"/>
+<vertex x="-0.8634" y="0.27736875"/>
+<vertex x="-0.8734" y="0.25736875"/>
+<vertex x="-0.8734" y="0.24736875"/>
+<vertex x="-0.8834" y="0.22736875"/>
+<vertex x="-0.8834" y="0.20736875"/>
+<vertex x="-1.2334" y="0.14736875"/>
+<vertex x="-1.2334" y="-0.17263125"/>
+<vertex x="-0.8834" y="-0.23263125"/>
+<vertex x="-0.8834" y="-0.24263125"/>
+<vertex x="-0.8734" y="-0.26263125"/>
+<vertex x="-0.8734" y="-0.28263125"/>
+<vertex x="-0.8634" y="-0.29263125"/>
+<vertex x="-0.8634" y="-0.31263125"/>
+<vertex x="-0.8534" y="-0.32263125"/>
+<vertex x="-0.8434" y="-0.34263125"/>
+<vertex x="-0.8434" y="-0.36263125"/>
+<vertex x="-0.8334" y="-0.37263125"/>
+<vertex x="-0.8334" y="-0.39263125"/>
+<vertex x="-0.8234" y="-0.40263125"/>
+<vertex x="-0.8134" y="-0.42263125"/>
+<vertex x="-0.8034" y="-0.43263125"/>
+<vertex x="-0.7934" y="-0.45263125"/>
+<vertex x="-0.7934" y="-0.46263125"/>
+<vertex x="-0.7834" y="-0.48263125"/>
+<vertex x="-0.9834" y="-0.76263125"/>
+<vertex x="-0.7634" y="-0.99263125"/>
+<vertex x="-0.4734" y="-0.79263125"/>
+<vertex x="-0.4634" y="-0.79263125"/>
+<vertex x="-0.4534" y="-0.80263125"/>
+<vertex x="-0.4434" y="-0.80263125"/>
+<vertex x="-0.4334" y="-0.81263125"/>
+<vertex x="-0.4234" y="-0.81263125"/>
+<vertex x="-0.4134" y="-0.82263125"/>
+<vertex x="-0.4034" y="-0.82263125"/>
+<vertex x="-0.3934" y="-0.83263125"/>
+<vertex x="-0.3834" y="-0.83263125"/>
+<vertex x="-0.3734" y="-0.84263125"/>
+<vertex x="-0.3634" y="-0.84263125"/>
+<vertex x="-0.3534" y="-0.85263125"/>
+<vertex x="-0.3334" y="-0.85263125"/>
+<vertex x="-0.3234" y="-0.86263125"/>
+<vertex x="-0.1234" y="-0.32263125"/>
+<vertex x="-0.1534" y="-0.31263125"/>
+<vertex x="-0.1934" y="-0.29263125"/>
+<vertex x="-0.2134" y="-0.27263125"/>
+<vertex x="-0.2334" y="-0.26263125"/>
+<vertex x="-0.2534" y="-0.24263125"/>
+<vertex x="-0.2634" y="-0.22263125"/>
+<vertex x="-0.2834" y="-0.20263125"/>
+<vertex x="-0.3034" y="-0.16263125"/>
+<vertex x="-0.3134" y="-0.13263125"/>
+<vertex x="-0.3334" y="-0.09263125"/>
+<vertex x="-0.3334" y="-0.06263125"/>
+<vertex x="-0.3434" y="-0.03263125"/>
+<vertex x="-0.3434" y="0.02736875"/>
+<vertex x="-0.3034" y="0.14736875"/>
+<vertex x="-0.2634" y="0.20736875"/>
+<vertex x="-0.2434" y="0.22736875"/>
+<vertex x="-0.2134" y="0.24736875"/>
+<vertex x="-0.1934" y="0.26736875"/>
+<vertex x="-0.1634" y="0.28736875"/>
+<vertex x="-0.1334" y="0.29736875"/>
+<vertex x="-0.1034" y="0.31736875"/>
+<vertex x="-0.0734" y="0.31736875"/>
+<vertex x="-0.0334" y="0.32736875"/>
+<vertex x="0.0366" y="0.32736875"/>
+<vertex x="0.0666" y="0.31736875"/>
+<vertex x="0.0966" y="0.31736875"/>
+<vertex x="0.1266" y="0.29736875"/>
+<vertex x="0.1566" y="0.28736875"/>
+<vertex x="0.2166" y="0.24736875"/>
+<vertex x="0.2566" y="0.20736875"/>
+<vertex x="0.2966" y="0.14736875"/>
+<vertex x="0.3066" y="0.11736875"/>
+<vertex x="0.3266" y="0.08736875"/>
+<vertex x="0.3266" y="0.05736875"/>
+<vertex x="0.3366" y="0.02736875"/>
+<vertex x="0.3366" y="-0.06263125"/>
+<vertex x="0.3266" y="-0.09263125"/>
+<vertex x="0.3266" y="-0.11263125"/>
+<vertex x="0.3166" y="-0.13263125"/>
+<vertex x="0.3066" y="-0.16263125"/>
+<vertex x="0.2966" y="-0.18263125"/>
+<vertex x="0.2766" y="-0.20263125"/>
+<vertex x="0.2666" y="-0.22263125"/>
+<vertex x="0.2266" y="-0.26263125"/>
+<vertex x="0.2066" y="-0.27263125"/>
+<vertex x="0.1866" y="-0.29263125"/>
+<vertex x="0.1266" y="-0.32263125"/>
+<vertex x="0.3266" y="-0.86263125"/>
+<vertex x="0.3266" y="-0.85263125"/>
+<vertex x="0.3466" y="-0.85263125"/>
+<vertex x="0.3566" y="-0.84263125"/>
+<vertex x="0.3666" y="-0.84263125"/>
+<vertex x="0.3766" y="-0.83263125"/>
+<vertex x="0.3866" y="-0.83263125"/>
+<vertex x="0.3966" y="-0.82263125"/>
+<vertex x="0.4166" y="-0.82263125"/>
+<vertex x="0.4266" y="-0.81263125"/>
+<vertex x="0.4366" y="-0.81263125"/>
+<vertex x="0.4566" y="-0.79263125"/>
+<vertex x="0.4666" y="-0.79263125"/>
+<vertex x="0.7566" y="-0.99263125"/>
+<vertex x="0.9866" y="-0.76263125"/>
+<vertex x="0.7766" y="-0.48263125"/>
+<vertex x="0.7866" y="-0.46263125"/>
+<vertex x="0.7966" y="-0.45263125"/>
+<vertex x="0.8066" y="-0.43263125"/>
+<vertex x="0.8066" y="-0.42263125"/>
+<vertex x="0.8166" y="-0.40263125"/>
+<vertex x="0.8266" y="-0.39263125"/>
+<vertex x="0.8366" y="-0.37263125"/>
+<vertex x="0.8366" y="-0.36263125"/>
+<vertex x="0.8566" y="-0.32263125"/>
+<vertex x="0.8566" y="-0.31263125"/>
+<vertex x="0.8666" y="-0.29263125"/>
+<vertex x="0.8666" y="-0.28263125"/>
+<vertex x="0.8766" y="-0.26263125"/>
+<vertex x="0.8766" y="-0.24263125"/>
+<vertex x="0.8866" y="-0.23263125"/>
+</polygon>
+</package>
 </packages>
 <symbols>
-<symbol name="LETTER_L">
+<symbol name="FRAME-LETTER">
+<description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
+&lt;p&gt;Standard 8.5x11 US Ledger frame&lt;/p&gt;
+&lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
 <wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
 </symbol>
 <symbol name="DOCFIELD">
+<description>&lt;h3&gt;Schematic Documentation Field&lt;/h3&gt;
+&lt;p&gt;Autofilling schematic symbol-layer info including board name, designer, revision, and save date.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME-LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
 <wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
@@ -15124,6 +15493,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+<text x="23.114" y="11.176" size="2.7432" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="88.9" y="6.604" size="2.7432" layer="94" font="vector">&gt;REV</text>
 </symbol>
 <symbol name="DGND">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
@@ -15137,11 +15508,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VDD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="FIDUCIAL">
+<description>&lt;h3&gt;Fiducial&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="OSHW-LOGO">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
+&lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
 <rectangle x1="-9.5186" y1="-8.9979" x2="-9.3916" y2="-8.9852" layer="94"/>
 <rectangle x1="-9.5313" y1="-8.9852" x2="-9.3789" y2="-8.9725" layer="94"/>
@@ -19897,16 +20275,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
-Standard 8.5x11 US Letter frame</description>
+<description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
+&lt;p&gt;Standard 8.5x11 US Letter frame&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+<gate name="G$1" symbol="FRAME-LETTER" x="0" y="0"/>
+<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
 </gates>
 <devices>
 <device name="" package="CREATIVE_COMMONS">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESIGNER" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NO_PACKAGE" package="DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="Nobody" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -19937,9 +20326,9 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-Various fiducial points for machine vision alignment.</description>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;h3&gt;Fiducial Alignment Points&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
@@ -19949,7 +20338,12 @@ Various fiducial points for machine vision alignment.</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
+<device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.2MM" package="FIDUCIAL-0.2MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19957,12 +20351,28 @@ Various fiducial points for machine vision alignment.</description>
 </devices>
 </deviceset>
 <deviceset name="OSHW-LOGO" prefix="LOGO">
-<description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
+&lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="OSHW-LOGO" x="-5.08" y="-5.08"/>
 </gates>
 <devices>
-<device name="S" package="OSHW-LOGO-S">
+<device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M-COPPER" package="OSHW-LOGO-M_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-COPPER" package="OSHW-LOGO-L_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L" package="OSHW-LOGO-L">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19972,7 +20382,17 @@ Various fiducial points for machine vision alignment.</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="L" package="OSHW-LOGO-L">
+<device name="S" package="OSHW-LOGO-S">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINI" package="OSHW-LOGO-MINI">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NO_SILK" package="DUMMY">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -22691,85 +23111,101 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Example device(s): 
 &lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13003"&gt;Microview breakout&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="18.05" y1="0.7" x2="-0.5" y2="0.7" width="0.127" layer="49"/>
-<wire x1="-0.5" y1="0.7" x2="-0.5" y2="-4.3" width="0.127" layer="49"/>
-<wire x1="-0.5" y1="-4.3" x2="3.09" y2="-4.3" width="0.127" layer="49"/>
-<wire x1="3.09" y1="-4.3" x2="3.09" y2="-9.1" width="0.127" layer="49"/>
-<wire x1="3.09" y1="-9.1" x2="-0.455" y2="-9.1" width="0.127" layer="49"/>
-<wire x1="-0.455" y1="-9.1" x2="-0.455" y2="-27.2" width="0.127" layer="49"/>
-<wire x1="-0.455" y1="-27.2" x2="18.005" y2="-27.2" width="0.127" layer="49"/>
-<wire x1="18.005" y1="-27.2" x2="18.005" y2="-9.1" width="0.127" layer="49"/>
-<wire x1="18.005" y1="-9.1" x2="14.46" y2="-9.1" width="0.127" layer="49"/>
-<wire x1="14.46" y1="-9.1" x2="14.46" y2="-4.3" width="0.127" layer="49"/>
-<wire x1="14.46" y1="-4.3" x2="18.05" y2="-4.3" width="0.127" layer="49"/>
-<wire x1="18.05" y1="-4.3" x2="18.05" y2="0.7" width="0.127" layer="49"/>
-<smd name="1" x="0" y="0" dx="0.35" dy="2" layer="1"/>
-<rectangle x1="17.39" y1="-0.8" x2="17.71" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="16.74" y1="-0.8" x2="17.06" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="16.09" y1="-0.8" x2="16.41" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="15.44" y1="-0.8" x2="15.76" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="14.79" y1="-0.8" x2="15.11" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="14.14" y1="-0.8" x2="14.46" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="13.49" y1="-0.8" x2="13.81" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="12.84" y1="-0.8" x2="13.16" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="12.19" y1="-0.8" x2="12.51" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="11.54" y1="-0.8" x2="11.86" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="10.89" y1="-0.8" x2="11.21" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="10.24" y1="-0.8" x2="10.56" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="9.59" y1="-0.8" x2="9.91" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="8.94" y1="-0.8" x2="9.26" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="8.29" y1="-0.8" x2="8.61" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="7.64" y1="-0.8" x2="7.96" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="6.99" y1="-0.8" x2="7.31" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="6.34" y1="-0.8" x2="6.66" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="5.69" y1="-0.8" x2="6.01" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="5.04" y1="-0.8" x2="5.36" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="4.39" y1="-0.8" x2="4.71" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="3.74" y1="-0.8" x2="4.06" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="3.09" y1="-0.8" x2="3.41" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="2.44" y1="-0.8" x2="2.76" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="1.79" y1="-0.8" x2="2.11" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="1.14" y1="-0.8" x2="1.46" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="0.49" y1="-0.8" x2="0.81" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="-0.16" y1="-0.8" x2="0.16" y2="0.7" layer="51" rot="R180"/>
-<smd name="2" x="0.65" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="3" x="1.3" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="4" x="1.95" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="5" x="2.6" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="6" x="3.25" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="7" x="3.9" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="8" x="4.55" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="9" x="5.2" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="10" x="5.85" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="11" x="6.5" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="12" x="7.15" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="13" x="7.8" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="14" x="8.45" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="15" x="9.1" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="16" x="9.75" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="17" x="10.4" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="18" x="11.05" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="19" x="11.7" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="20" x="12.35" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="21" x="13" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="22" x="13.65" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="23" x="14.3" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="24" x="14.95" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="25" x="15.6" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="26" x="16.25" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="27" x="16.9" y="0" dx="0.35" dy="2" layer="1"/>
-<smd name="28" x="17.55" y="0" dx="0.35" dy="2" layer="1"/>
-<wire x1="15.53" y1="-25.1" x2="15.53" y2="-15.04" width="0.127" layer="52"/>
-<wire x1="15.53" y1="-15.04" x2="2.11" y2="-15.04" width="0.127" layer="52"/>
-<wire x1="2.11" y1="-15.04" x2="2.11" y2="-25.1" width="0.127" layer="52"/>
-<wire x1="2.11" y1="-25.1" x2="15.53" y2="-25.1" width="0.127" layer="52"/>
-<text x="8.82" y="-20.07" size="0.8128" layer="52" font="vector" rot="R180" align="center">Active Area 0.66"
+<wire x1="9.225" y1="0.7" x2="-9.275" y2="0.7" width="0.127" layer="49"/>
+<wire x1="-9.275" y1="0.7" x2="-9.275" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="-9.275" y1="-4.8" x2="-5.65" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="-5.65" y1="-4.8" x2="-5.65" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="-5.65" y1="-9.1" x2="-9.23" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="-9.23" y1="-9.1" x2="-9.23" y2="-27.2" width="0.127" layer="49"/>
+<wire x1="-9.23" y1="-27.2" x2="9.23" y2="-27.2" width="0.127" layer="49"/>
+<wire x1="9.23" y1="-27.2" x2="9.23" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="9.23" y1="-9.1" x2="5.65" y2="-9.1" width="0.127" layer="49"/>
+<wire x1="5.65" y1="-9.1" x2="5.65" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="5.65" y1="-4.8" x2="9.225" y2="-4.8" width="0.127" layer="49"/>
+<wire x1="9.225" y1="-4.8" x2="9.225" y2="0.7" width="0.127" layer="49"/>
+<smd name="1" x="-8.775" y="0" dx="0.35" dy="2" layer="1"/>
+<rectangle x1="8.615" y1="-0.8" x2="8.935" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="7.965" y1="-0.8" x2="8.285" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="7.315" y1="-0.8" x2="7.635" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="6.665" y1="-0.8" x2="6.985" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="6.015" y1="-0.8" x2="6.335" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="5.365" y1="-0.8" x2="5.685" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="4.715" y1="-0.8" x2="5.035" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="4.065" y1="-0.8" x2="4.385" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="3.415" y1="-0.8" x2="3.735" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="2.765" y1="-0.8" x2="3.085" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="2.115" y1="-0.8" x2="2.435" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="1.465" y1="-0.8" x2="1.785" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="0.815" y1="-0.8" x2="1.135" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="0.165" y1="-0.8" x2="0.485" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-0.485" y1="-0.8" x2="-0.165" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-1.135" y1="-0.8" x2="-0.815" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-1.785" y1="-0.8" x2="-1.465" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-2.435" y1="-0.8" x2="-2.115" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-3.085" y1="-0.8" x2="-2.765" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-3.735" y1="-0.8" x2="-3.415" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-4.385" y1="-0.8" x2="-4.065" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-5.035" y1="-0.8" x2="-4.715" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-5.685" y1="-0.8" x2="-5.365" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-6.335" y1="-0.8" x2="-6.015" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-6.985" y1="-0.8" x2="-6.665" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-7.635" y1="-0.8" x2="-7.315" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-8.285" y1="-0.8" x2="-7.965" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-8.935" y1="-0.8" x2="-8.615" y2="0.7" layer="51" rot="R180"/>
+<smd name="2" x="-8.125" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="3" x="-7.475" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="4" x="-6.825" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="5" x="-6.175" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="6" x="-5.525" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="7" x="-4.875" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="8" x="-4.225" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="9" x="-3.575" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="10" x="-2.925" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="11" x="-2.275" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="12" x="-1.625" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="13" x="-0.975" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="14" x="-0.325" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="15" x="0.325" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="16" x="0.975" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="17" x="1.625" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="18" x="2.275" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="19" x="2.925" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="20" x="3.575" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="21" x="4.225" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="22" x="4.875" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="23" x="5.525" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="24" x="6.175" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="25" x="6.825" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="26" x="7.475" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="27" x="8.125" y="0" dx="0.35" dy="2" layer="1"/>
+<smd name="28" x="8.775" y="0" dx="0.35" dy="2" layer="1"/>
+<wire x1="6.755" y1="-25.1" x2="6.755" y2="-15.04" width="0.127" layer="52"/>
+<wire x1="6.755" y1="-15.04" x2="-6.665" y2="-15.04" width="0.127" layer="52"/>
+<wire x1="-6.665" y1="-15.04" x2="-6.665" y2="-25.1" width="0.127" layer="52"/>
+<wire x1="-6.665" y1="-25.1" x2="6.755" y2="-25.1" width="0.127" layer="52"/>
+<text x="0.045" y="-20.07" size="0.8128" layer="52" font="vector" rot="R180" align="center">Active Area 0.66"
 64 x 48 Pixels
 (Facing Bottom)</text>
-<hole x="17.15" y="-3.4" drill="0.8"/>
-<hole x="0.4" y="-3.4" drill="0.8"/>
-<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;Value</text>
+<hole x="8.375" y="-3.4" drill="0.8"/>
+<hole x="-8.375" y="-3.4" drill="0.8"/>
+<text x="-8.775" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-8.775" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;Value</text>
+<wire x1="-9.275" y1="13.2" x2="9.225" y2="13.2" width="0.127" layer="51"/>
+<wire x1="9.225" y1="13.2" x2="9.23" y2="13.2" width="0.127" layer="51"/>
+<wire x1="5.65" y1="-4.8" x2="9.225" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="9.225" y1="-4.8" x2="9.225" y2="13.2" width="0.127" layer="51"/>
+<wire x1="-9.275" y1="13.2" x2="-9.275" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-9.275" y1="-4.8" x2="-5.65" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-6.805" y1="11.1" x2="-6.805" y2="1.04" width="0.127" layer="51"/>
+<wire x1="-6.805" y1="1.04" x2="6.615" y2="1.04" width="0.127" layer="51"/>
+<wire x1="6.615" y1="1.04" x2="6.615" y2="11.1" width="0.127" layer="51"/>
+<wire x1="6.615" y1="11.1" x2="-6.805" y2="11.1" width="0.127" layer="51"/>
+<text x="-0.095" y="6.07" size="0.8128" layer="51" font="vector" align="center">Active Area 0.66"
+64 x 48 Pixels
+(Facing Up)</text>
+<wire x1="-5.65" y1="-7.1" x2="5.65" y2="-7.1" width="0.127" layer="51"/>
+<wire x1="-5.65" y1="-4.8" x2="-5.65" y2="-7.1" width="0.127" layer="51"/>
+<wire x1="5.65" y1="-7.1" x2="5.65" y2="-4.8" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -23040,7 +23476,7 @@ from I2C bus. </text>
 <attribute name="VALUE" x="55.88" y="105.918" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0" smashed="yes">
+<instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
