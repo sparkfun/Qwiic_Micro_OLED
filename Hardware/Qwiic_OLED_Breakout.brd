@@ -213,11 +213,11 @@
 <wire x1="12.16" y1="29.718" x2="-3.556" y2="29.718" width="0.2032" layer="20"/>
 <wire x1="14.163040625" y1="25.562559375" x2="14.163040625" y2="29.718" width="0.2032" layer="20"/>
 <wire x1="14.163040625" y1="29.718" x2="23.749" y2="29.718" width="0.2032" layer="20"/>
-<text x="8.89" y="-27.94" size="1.778" layer="51" font="vector">Joel Bartlett</text>
+<text x="12.7" y="-27.94" size="1.778" layer="51" font="vector">Joel Bartlett</text>
 <dimension x1="-3.81" y1="29.718" x2="-3.81" y2="0" x3="-15.24" y3="14.859" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="-3.556" y1="29.718" x2="23.749" y2="29.718" x3="10.0965" y3="41.148" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="27.178" x3="-11.43" y3="13.589" textsize="1.778" layer="47" unit="inch"/>
-<text x="12.7" y="-30.48" size="1.778" layer="51" font="vector">Andy England, Elias Santistevan</text>
+<text x="11.43" y="-30.5054" size="1.778" layer="51" font="vector">Andy England, Elias Santistevan</text>
 <wire x1="1.905" y1="24.638" x2="1.905" y2="20.828" width="0.2032" layer="20"/>
 <wire x1="1.905" y1="20.828" x2="18.415" y2="20.828" width="0.2032" layer="20"/>
 <wire x1="18.415" y1="20.828" x2="18.415" y2="24.638" width="0.2032" layer="20"/>
@@ -236,6 +236,7 @@
 <dimension x1="0" y1="27.178" x2="20.32" y2="27.178" x3="10.16" y3="34.29" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="20.32" y1="0" x2="20.32" y2="11.43" x3="26.67" y3="5.715" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="20.32" y1="0" x2="20.32" y2="19.05" x3="31.75" y3="9.525" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="-6.35" y="-30.48" size="1.778" layer="51" font="vector">Revised By: </text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
