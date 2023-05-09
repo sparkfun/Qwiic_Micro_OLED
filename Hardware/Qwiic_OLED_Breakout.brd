@@ -55,12 +55,12 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -228,11 +228,11 @@
 <dimension x1="0" y1="0" x2="20.32" y2="0" x3="10.16" y3="-10.16" textsize="1.778" textratio="12" layer="47" unit="inch"/>
 <dimension x1="10.16" y1="5.08" x2="0" y2="5.08" x3="5.08" y3="-5.08" textsize="1.778" textratio="12" layer="47" unit="inch"/>
 <text x="-26.67" y="-6.35" size="1.778" layer="47" font="vector" ratio="12">Units in Inches</text>
-<text x="31.75" y="34.29" size="1.778" layer="51" font="vector" ratio="12">Two Layer Board</text>
-<text x="31.75" y="31.75" size="1.778" layer="51" font="vector" ratio="12">Red Soldermask</text>
-<text x="31.75" y="29.21" size="1.778" layer="51" font="vector" ratio="12">White Silkscreen</text>
-<text x="31.75" y="26.67" size="1.778" layer="51" font="vector" ratio="12">1.6mm Thickness</text>
-<text x="31.75" y="24.13" size="1.778" layer="51" font="vector" ratio="12">Lead-Free HASL</text>
+<text x="35.56" y="34.29" size="1.778" layer="51" font="vector" ratio="12">Two Layer Board</text>
+<text x="35.56" y="31.75" size="1.778" layer="51" font="vector" ratio="12">Red Soldermask</text>
+<text x="35.56" y="29.21" size="1.778" layer="51" font="vector" ratio="12">White Silkscreen</text>
+<text x="35.56" y="26.67" size="1.778" layer="51" font="vector" ratio="12">1.6mm Thickness</text>
+<text x="35.56" y="24.13" size="1.778" layer="51" font="vector" ratio="12">Lead-Free HASL</text>
 <dimension x1="0" y1="27.178" x2="20.32" y2="27.178" x3="10.16" y3="34.29" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="20.32" y1="0" x2="20.32" y2="11.43" x3="26.67" y3="5.715" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="20.32" y1="0" x2="20.32" y2="19.05" x3="31.75" y3="9.525" textsize="1.778" textratio="15" layer="47" unit="inch"/>
@@ -3691,7 +3691,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$14" library="pot" package="OLED593421" value="" x="6.731" y="15.113" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="10.16" y="22.86" smashed="yes"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="6.604" y="18.415" smashed="yes" rot="MR0"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="30.48" y="46.99" smashed="yes"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="34.29" y="46.99" smashed="yes"/>
 <element name="U$15" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="3.556" y="2.54" smashed="yes"/>
 <element name="J4" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="19.05" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.653" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
@@ -3764,6 +3764,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="6.5786" y="5.461" extent="1-16" drill="0.3048"/>
 <via x="7.8994" y="4.2164" extent="1-16" drill="0.3048"/>
 <via x="10.5156" y="9.652" extent="1-16" drill="0.3048"/>
+<via x="17.6276" y="10.3632" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="VDD">
 <contactref element="C4" pad="1"/>
