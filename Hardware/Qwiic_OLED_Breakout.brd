@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -200,27 +200,27 @@
 <wire x1="20.32" y1="0" x2="20.32" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.2032" layer="20"/>
-<wire x1="-3.556" y1="29.718" x2="-3.556" y2="24.638" width="0.2032" layer="20"/>
-<wire x1="-3.556" y1="24.638" x2="1.905" y2="24.638" width="0.2032" layer="20"/>
-<wire x1="18.415" y1="24.638" x2="23.749" y2="24.638" width="0.2032" layer="20"/>
-<wire x1="23.749" y1="24.638" x2="23.749" y2="29.718" width="0.2032" layer="20"/>
+<wire x1="-3.556" y1="29.464" x2="-3.556" y2="24.384" width="0.2032" layer="20"/>
+<wire x1="-3.556" y1="24.384" x2="1.905" y2="24.384" width="0.2032" layer="20"/>
+<wire x1="18.415" y1="24.384" x2="23.749" y2="24.384" width="0.2032" layer="20"/>
+<wire x1="23.749" y1="24.384" x2="23.749" y2="29.464" width="0.2032" layer="20"/>
 <rectangle x1="6.16" y1="25.558" x2="14.16" y2="27.558" layer="46" rot="R180"/>
 <rectangle x1="12.16" y1="27.558" x2="14.16" y2="29.558" layer="46" rot="R180"/>
-<wire x1="12.16" y1="29.718" x2="12.16" y2="27.558" width="0.2032" layer="20"/>
-<wire x1="12.16" y1="27.558" x2="6.16" y2="27.558" width="0.2032" layer="20"/>
-<wire x1="6.16" y1="27.558" x2="6.16" y2="25.558" width="0.2032" layer="20"/>
-<wire x1="6.16" y1="25.558" x2="14.16" y2="25.558" width="0.2032" layer="20"/>
-<wire x1="12.16" y1="29.718" x2="-3.556" y2="29.718" width="0.2032" layer="20"/>
-<wire x1="14.163040625" y1="25.562559375" x2="14.163040625" y2="29.718" width="0.2032" layer="20"/>
-<wire x1="14.163040625" y1="29.718" x2="23.749" y2="29.718" width="0.2032" layer="20"/>
+<wire x1="12.16" y1="29.464" x2="12.16" y2="27.304" width="0.2032" layer="20"/>
+<wire x1="12.16" y1="27.304" x2="6.16" y2="27.304" width="0.2032" layer="20"/>
+<wire x1="6.16" y1="27.304" x2="6.16" y2="25.304" width="0.2032" layer="20"/>
+<wire x1="6.16" y1="25.304" x2="14.16" y2="25.304" width="0.2032" layer="20"/>
+<wire x1="12.16" y1="29.464" x2="-3.556" y2="29.464" width="0.2032" layer="20"/>
+<wire x1="14.163040625" y1="25.308559375" x2="14.163040625" y2="29.464" width="0.2032" layer="20"/>
+<wire x1="14.163040625" y1="29.464" x2="23.749" y2="29.464" width="0.2032" layer="20"/>
 <text x="12.7" y="-27.94" size="1.778" layer="51" font="vector">Joel Bartlett</text>
 <dimension x1="-3.81" y1="29.718" x2="-3.81" y2="0" x3="-15.24" y3="14.859" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="-3.556" y1="29.718" x2="23.749" y2="29.718" x3="10.0965" y3="41.148" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="27.178" x3="-11.43" y3="13.589" textsize="1.778" layer="47" unit="inch"/>
 <text x="11.43" y="-30.5054" size="1.778" layer="51" font="vector">Andy England, Elias Santistevan</text>
-<wire x1="1.905" y1="24.638" x2="1.905" y2="20.828" width="0.2032" layer="20"/>
-<wire x1="1.905" y1="20.828" x2="18.415" y2="20.828" width="0.2032" layer="20"/>
-<wire x1="18.415" y1="20.828" x2="18.415" y2="24.638" width="0.2032" layer="20"/>
+<wire x1="1.905" y1="24.384" x2="1.905" y2="20.574" width="0.2032" layer="20"/>
+<wire x1="1.905" y1="20.574" x2="18.415" y2="20.574" width="0.2032" layer="20"/>
+<wire x1="18.415" y1="20.574" x2="18.415" y2="24.384" width="0.2032" layer="20"/>
 <wire x1="0" y1="20.32" x2="20.32" y2="20.32" width="0.2032" layer="20"/>
 <text x="6.731" y="26.035" size="0.889" layer="46" font="vector" ratio="12">ROUTE OUT</text>
 <text x="6.604" y="26.035" size="0.889" layer="46" font="vector" ratio="12">ROUTE OUT</text>
@@ -3661,13 +3661,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="6.985" y="11.557" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="6.985" y="13.843" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="20.32" y="27.178" smashed="yes">
-<attribute name="NAME" x="20.32" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="20.32" y="25.146" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="20.32" y="26.924" smashed="yes">
+<attribute name="NAME" x="20.32" y="28.956" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="20.32" y="24.892" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="0" y="27.178" smashed="yes">
-<attribute name="NAME" x="0" y="29.21" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="0" y="25.146" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="0" y="26.924" smashed="yes">
+<attribute name="NAME" x="0" y="28.956" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="0" y="24.892" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="ADR" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="12.7" y="13.843" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>

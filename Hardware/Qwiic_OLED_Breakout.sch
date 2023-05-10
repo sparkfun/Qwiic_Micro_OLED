@@ -23433,7 +23433,7 @@ Alternate Address: 0x3C
 Close jumper for Aternate Address
 </text>
 <text x="223.52" y="38.1" size="1.778" layer="97"></text>
-<text x="182.88" y="182.88" size="2.54" layer="94" font="vector" align="center">Power Supply</text>
+<text x="182.88" y="182.88" size="2.54" layer="94" font="vector" align="center">Power Considerations</text>
 <text x="129.54" y="177.8" size="1.778" layer="97" font="vector" align="top-left">The OLED requires a 1.65-3.3V supply for its logic circuits (VDD) and a 7-7.5V
 supply for it's display circuitry (VCC). Fortunately, it features a charge-pump 
 boost converter to generate a 7V supply (VCC) from 3.3-4.2V. The 
