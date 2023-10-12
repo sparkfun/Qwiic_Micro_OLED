@@ -1,7 +1,7 @@
 SparkFun SparkFun Micro OLED Breakout (Qwiic)
 ========================================
 
-[![SparkFun Micro OLED Breakout (Qwiic)](https://cdn.sparkfun.com//assets/parts/2/2/5/5/8/22495-_LCD-_01.jpg)](https://www.sparkfun.com/products/22495)
+[![SparkFun Micro OLED Breakout (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/2/5/5/8/22495-_LCD-_01.jpg)](https://www.sparkfun.com/products/22495)
 
 [*SparkFun Micro OLED Breakout (Qwiic) (LCD-22495)*](https://www.sparkfun.com/products/22495)
 
