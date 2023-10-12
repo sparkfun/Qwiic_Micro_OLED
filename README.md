@@ -19,7 +19,7 @@ Documentation
 --------------
 * **[Micro OLED Breakout Library](https://github.com/sparkfun/SparkFun_Micro_OLED_Arduino_Library)** - Latest Arduino library for the Micro OLED Breakout.
 * **[Qwiic Micro OLED Breakout Library](https://github.com/sparkfun/SparkFun_Qwiic_OLED_Arduino_Library)** - Alternative Arduino library for the Qwiic Micro OLED Breakout. This library is higher performance and handles memory better than the Micro OLED Arduino Library. This library also works with 2x other Qwiic OLEDs!!!
-* * **[SparkFun Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/22495_sfe_qwiic_micro_oled_breakout_top_view.fzpz)** - V11, top view
+* **[SparkFun Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/22495_sfe_qwiic_micro_oled_breakout_top_view.fzpz)** - V11, top view
 * **[SparkFun Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/14532_sfe_Qwiic_OLED_Breakout.fzpz)** - V10, bottom view
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-micro-oled-hookup-guide)** - Basic hookup guide for the SparkFun Micro OLED Breakout (Qwiic).
 
